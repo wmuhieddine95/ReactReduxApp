@@ -14,7 +14,7 @@ class Drink extends Component{
     render(){
         return(
             <div className="container">
-                <p>{this.props.id}</p>
+                <p>{this.state.id}</p>
             </div>
         )
     }
